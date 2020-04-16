@@ -1,0 +1,13 @@
+html{
+    background-image: linear-gradient(rgba(179, 7, 7, 0.952), (rgba(61, 60, 60, 0.877))) ;
+    background-color: rgba(61, 60, 60, 0.877);
+    color:rgb(185, 38, 38);
+    text-shadow: 2px 2px 2px rgb(22, 21, 21);
+    
+}
+
+.ttcSched .choose-form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}

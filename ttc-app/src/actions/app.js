@@ -6,7 +6,8 @@ export const DATA_ERROR = "DATA_ERROR";
 
 
 
-export const fetchData = (station = "davisville") => {
+export const fetchData = (station) => {
+    //station = "davisville"
     return dispatch => {
         dispatch({
             type:FETCH_DATA

@@ -39,11 +39,13 @@ const TTCSched = props => {
                                 Finch
                             </option>
                             <option
-                            value = "jane"></option>
+                            value = "jane">
+                                Jane
+                            </option>
                             </select>
 
                     </div>
-            <button onClick ={() => props.fetchData()}>GET DATA</button>
+            <button onClick ={() => props.fetchData('davisville')}>GET DATA</button>
                 
             <div className = "busInfo">
                 <h1>Station Name : {props.ttc_info.station_name}</h1>
